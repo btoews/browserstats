@@ -1,0 +1,51 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="assets/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script src="assets/browser_stats.js"></script>
+  </head>
+  <body>
+    <div id="main">
+      <div id="header">
+        <h1>
+          Browser Usage/Feature Statistics
+        </h1>
+      </div>
+      <div class="content">
+        <h2 id="feature-name"></h2>
+        <p id="feature-description"></p>
+      </div>
+
+      <div id="dropdowns">
+        <table>
+          <tr>
+            <td>
+              <label>Category:</label>
+            </td>
+            <td>
+              <select id="category-chooser">
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label>Feature:</label>
+            </td>
+            <td>
+              <select id="data-chooser"></select>
+            </td>
+          </tr>
+        </table>
+      </div>
+
+      <div id="chart-container"></div>
+      <div class="content">
+        <h2>About</h2>
+        <p>This application takes data from <a href='http://caniuse.com'>caniuse</a> and presents it in a pack chart powered by <a href='http://d3js.org'>D3</a>. The innermost circles represent specific versions of web browsers. The next level of circles represent families of web browsers (Eg. Chrome, FireFox, IE). The color of the circles represents how well that browser supports the feature selected using the dropdown menu. Red means that the feature isn't supported. Green means that it is. These statistics bubble up from the specific browser version, to the browser-family, to the outermost circle -- the universe of web browsers. As this value bubbles up, it is weighted by the percentage of people using that given browser version.</p>
+        <p>This application was created by Ben Toews. You can fork the project on <a href="https://github.com/mastahyeti/browserstats">GitHub</a>.
+      </div>
+    </div>
+  </body>
+</html>

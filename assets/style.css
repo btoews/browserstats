@@ -1,0 +1,104 @@
+#main {
+  background-color: rgba(255,255,255,.6);
+  width: 960px;
+  margin: auto;
+  padding: 20px;
+   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight: 300;
+}
+
+#chart-container {
+  margin: auto;
+  padding-bottom: 50px;
+  width: 800;
+}
+
+#header {
+  padding: 20px;
+  margin: 0px 20px 20px 20px;
+  background-color: rgba(255,255,255,1);
+}
+
+#header a {
+  text-decoration: none;
+  color: black;
+}
+
+.content {
+  padding: 20px;
+  margin: 0px 10px 20px 20px;
+  background-color: rgba(255,255,255,1); 
+  font-size: 1.2em;
+  line-height: 1.2em;
+
+  display: inline-block;
+  width: 410px;
+}
+
+.content a {
+  text-decoration: none;
+  color: rgb(128,128,128);
+}
+
+.content a:hover {
+  color: rgb(200,200,200);
+}
+
+#dropdowns {
+
+  font-weight: bold;
+  font-size: .8em;
+  vertical-align: top;
+  padding: 20px;
+  margin: 0px 0px 20px 10px;
+  background-color: rgba(255,255,255,1); 
+  display: inline-block;
+  width: 410px;
+}
+
+#dropdowns fieldset label {
+  font-weight: bold;
+}
+
+div.tooltip {
+  position: absolute;
+  text-align: center;
+  padding: 8px;
+  font: 10px sans-serif;
+  background: #ddd;
+  border: solid 1px #aaa;
+  border-radius: 8px;
+  pointer-events: none;
+}
+
+body {
+  background-image: url('p5.png')
+}
+
+h1,h2,h3,h4,h5 {
+  color: rgb(50,50,50);
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+text {
+  font-size: 10px;
+  pointer-events: none;
+}
+
+circle {
+  stroke: white;
+  stroke-width: 2px;
+}
