@@ -148,8 +148,9 @@ $(document).ready(function(){
     });
   }
 
-  function load_data(){
-    file = $("#data-chooser").val();
+  function load_data(src){
+    file = (src == undefined) ? $("#data-chooser").val() : src;
+
     location.hash = file;
     update_chart(file);
   }
