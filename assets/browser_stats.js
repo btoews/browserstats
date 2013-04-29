@@ -149,8 +149,7 @@ $(document).ready(function(){
   }
 
   function load_data(src){
-    file = (src == undefined) ? $("#data-chooser").val() : src;
-
+    file = $("#data-chooser").val();
     location.hash = file;
     update_chart(file);
   }
@@ -178,8 +177,8 @@ $(document).ready(function(){
       $("#data-chooser").val(file);
     }
 
-    // Load the data they asked for
-    load_data();
+    // Load something interesting
+    update_chart("stats/css-canvas.json");
 
     // Update the data on change
     $("#data-chooser").change(load_data);
