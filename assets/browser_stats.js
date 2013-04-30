@@ -148,7 +148,7 @@ $(document).ready(function(){
     });
   }
 
-  function load_data(src){
+  function load_data(){
     file = $("#data-chooser").val();
     location.hash = file;
     update_chart(file);
@@ -171,14 +171,18 @@ $(document).ready(function(){
   d3.json("stats/index.json",function(error, root){
     update_feature_selector(root.features);
 
+
     // Set the <select> value based on the location.hash
     file = location.hash.slice(1);
     if(root.features.filter(function(o){return o.file == file;}).length){
       $("#data-chooser").val(file);
     }
+    else {
+      // Load something interesting
+      $("#data-chooser").val("stats/css-canvas.json");
+    }
 
-    // Load something interesting
-    update_chart("stats/css-canvas.json");
+    load_data();
 
     // Update the data on change
     $("#data-chooser").change(load_data);
