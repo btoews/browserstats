@@ -156,9 +156,9 @@ $(document).ready(function(){
 
   function update_feature_selector(data){
     // Load stats/index.json to fill out the selector
-    choices = d3.select("select#data-chooser")
+    var choices = d3.select("select#data-chooser")
                 .selectAll("option")
-                .data(data);
+                .data(data, function(d){return d.title;});
 
     choices.enter()
            .append("option")
