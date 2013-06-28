@@ -43,21 +43,21 @@ $(document).ready(function(){
     // Outer Bubble
     if(d.feature_name){
       output += "<h2>"+d.feature_name+"</h2>";
-      output += "<p><b>" + (compute_support(d) * 100).toPrecision(2) + "%</b> global browser support</p>";
+      output += "<p><b>" + (compute_support(d) * 100).toFixed(2) + "%</b> global browser support</p>";
     }
 
     // Browser Family.
     if(d.family_name){
       output += "<h2>"+d.family_name+"</h2>";
-      output += "<p><b>" + (compute_support(d) * 100).toPrecision(2) + "%</b> of users can use " + d.parent.feature_name + "</p>";
-      output += "<p>Used by <b>" + d.value.toPrecision(2) + "%</b> of global users.</p>";
+      output += "<p><b>" + (compute_support(d) * 100).toFixed(2) + "%</b> of users can use " + d.parent.feature_name + "</p>";
+      output += "<p>Used by <b>" + d.value.toFixed(2) + "%</b> of global users.</p>";
     }
 
     // Browser Version.
     if(d.version_name){
       output += "<h2>"+ d.parent.family_name + " v" + d.version_name + "</h2>";
       output += "<p><b>" + (d.support ? "Supports</b> " : "Doesn't support</b> ") + d.parent.parent.feature_name + "</p>";
-      output += "<p>Used by <b>" + d.value.toPrecision(2) + "%</b> of global users.</p>";
+      output += "<p>Used by <b>" + d.value.toFixed(2) + "%</b> of global users.</p>";
     }
 
     return output
@@ -156,9 +156,9 @@ $(document).ready(function(){
 
   function update_feature_selector(data){
     // Load stats/index.json to fill out the selector
-    choices = d3.select("select#data-chooser")
+    var choices = d3.select("select#data-chooser")
                 .selectAll("option")
-                .data(data);
+                .data(data, function(d){return d.title;});
 
     choices.enter()
            .append("option")
