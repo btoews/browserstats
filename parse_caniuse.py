@@ -39,15 +39,15 @@ for feature in parsed["data"]:
       }
 
       # Don't sweat the small stuff...
-      if version_data["size"] > .08:
-        # raw support value
-        support = parsed["data"][feature]["stats"].get(agent,{}).get(version,False)
+      # if version_data["size"] > .01:
+      # raw support value
+      support = parsed["data"][feature]["stats"].get(agent,{}).get(version,False)
 
-        # parse the raw support value
-        version_data["support"] = SUPPORT_VALUES.get(support,False)
+      # parse the raw support value
+      version_data["support"] = SUPPORT_VALUES.get(support,False)
 
-        # add version as a child of the browser family
-        agent_data["children"].append(version_data)
+      # add version as a child of the browser family
+      agent_data["children"].append(version_data)
 
     # add browser family as a child of the feature
     feature_data["children"].append(agent_data)

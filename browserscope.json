@@ -79,7 +79,7 @@
     , 
   
       "Android 2": {
-        "count": "854",
+        "count": "876",
         "summary_score": "58",
         "results": {
           "postMessage API": {
@@ -154,7 +154,7 @@
     , 
   
       "Android 3": {
-        "count": "88",
+        "count": "92",
         "summary_score": "70",
         "results": {
           "postMessage API": {
@@ -229,7 +229,7 @@
     , 
   
       "Android 4": {
-        "count": "336",
+        "count": "568",
         "summary_score": "70",
         "results": {
           "postMessage API": {
@@ -298,6 +298,81 @@
         
           "Content Security Policy": {
             "result": "no"
+          }
+        }
+      }
+    , 
+  
+      "Android 7": {
+        "count": "1",
+        "summary_score": "76",
+        "results": {
+          "postMessage API": {
+            "result": "yes"
+          }, 
+        
+          "JSON.parse API": {
+            "result": "yes"
+          }, 
+        
+          "toStaticHTML API": {
+            "result": "no"
+          }, 
+        
+          "httpOnly cookie API": {
+            "result": "yes"
+          }, 
+        
+          "X-Frame-Options": {
+            "result": "yes"
+          }, 
+        
+          "X-Content-Type-Options": {
+            "result": "no"
+          }, 
+        
+          "Block reflected XSS": {
+            "result": "no"
+          }, 
+        
+          "Block location spoofing": {
+            "result": "yes"
+          }, 
+        
+          "Block JSON hijacking": {
+            "result": "yes"
+          }, 
+        
+          "Block XSS in CSS": {
+            "result": "yes"
+          }, 
+        
+          "Sandbox attribute": {
+            "result": "yes"
+          }, 
+        
+          "Origin header": {
+            "result": "yes"
+          }, 
+        
+          "Strict Transport Security": {
+            "result": "no"
+          }, 
+        
+          "Block cross-origin CSS attacks": {
+            "result": "yes"
+          }, 
+        
+          "Cross Origin Resource Sharing": {
+            "result": "yes"
+          }, 
+        
+          "Block visited link sniffing": {
+            "result": "yes"
+          }, 
+        
+          "Content Security Policy": {
+            "result": "yes"
           }
         }
       }
@@ -379,7 +454,7 @@
     , 
   
       "Arora 0": {
-        "count": "60",
+        "count": "61",
         "summary_score": "41",
         "results": {
           "postMessage API": {
@@ -454,8 +529,8 @@
     , 
   
       "Avant": {
-        "count": "151",
-        "summary_score": "64",
+        "count": "173",
+        "summary_score": "70",
         "results": {
           "postMessage API": {
             "result": "yes"
@@ -486,7 +561,7 @@
           }, 
         
           "Block location spoofing": {
-            "result": "no"
+            "result": "yes"
           }, 
         
           "Block JSON hijacking": {
@@ -529,8 +604,8 @@
     , 
   
       "Avant 1": {
-        "count": "133",
-        "summary_score": "64",
+        "count": "155",
+        "summary_score": "70",
         "results": {
           "postMessage API": {
             "result": "yes"
@@ -561,7 +636,7 @@
           }, 
         
           "Block location spoofing": {
-            "result": "no"
+            "result": "yes"
           }, 
         
           "Block JSON hijacking": {
@@ -604,7 +679,7 @@
     , 
   
       "Baidu Explorer 1": {
-        "count": "4",
+        "count": "10",
         "summary_score": "70",
         "results": {
           "postMessage API": {
@@ -1803,6 +1878,81 @@
       }
     , 
   
+      "Blackberry WebKit 7": {
+        "count": "2",
+        "summary_score": "76",
+        "results": {
+          "postMessage API": {
+            "result": "yes"
+          }, 
+        
+          "JSON.parse API": {
+            "result": "yes"
+          }, 
+        
+          "toStaticHTML API": {
+            "result": "no"
+          }, 
+        
+          "httpOnly cookie API": {
+            "result": "yes"
+          }, 
+        
+          "X-Frame-Options": {
+            "result": "yes"
+          }, 
+        
+          "X-Content-Type-Options": {
+            "result": "no"
+          }, 
+        
+          "Block reflected XSS": {
+            "result": "no"
+          }, 
+        
+          "Block location spoofing": {
+            "result": "yes"
+          }, 
+        
+          "Block JSON hijacking": {
+            "result": "yes"
+          }, 
+        
+          "Block XSS in CSS": {
+            "result": "yes"
+          }, 
+        
+          "Sandbox attribute": {
+            "result": "yes"
+          }, 
+        
+          "Origin header": {
+            "result": "yes"
+          }, 
+        
+          "Strict Transport Security": {
+            "result": "yes"
+          }, 
+        
+          "Block cross-origin CSS attacks": {
+            "result": "yes"
+          }, 
+        
+          "Cross Origin Resource Sharing": {
+            "result": "yes"
+          }, 
+        
+          "Block visited link sniffing": {
+            "result": "yes"
+          }, 
+        
+          "Content Security Policy": {
+            "result": "no"
+          }
+        }
+      }
+    , 
+  
       "BOLT 2": {
         "count": "22",
         "summary_score": "58",
@@ -2029,8 +2179,8 @@
     , 
   
       "Camino 2": {
-        "count": "54",
-        "summary_score": "35",
+        "count": "56",
+        "summary_score": "41",
         "results": {
           "postMessage API": {
             "result": "yes"
@@ -2089,7 +2239,7 @@
           }, 
         
           "Cross Origin Resource Sharing": {
-            "result": "no"
+            "result": "yes"
           }, 
         
           "Block visited link sniffing": {
@@ -2929,7 +3079,7 @@
     , 
   
       "Chrome 6": {
-        "count": "1365",
+        "count": "1366",
         "summary_score": "88",
         "results": {
           "postMessage API": {
@@ -3154,7 +3304,7 @@
     , 
   
       "Chrome 7": {
-        "count": "2222",
+        "count": "2223",
         "summary_score": "82",
         "results": {
           "postMessage API": {
@@ -3454,7 +3604,7 @@
     , 
   
       "Chrome 8": {
-        "count": "1170",
+        "count": "1171",
         "summary_score": "82",
         "results": {
           "postMessage API": {
@@ -3904,7 +4054,7 @@
     , 
   
       "Chrome 11": {
-        "count": "1371",
+        "count": "1386",
         "summary_score": "88",
         "results": {
           "postMessage API": {
@@ -4579,7 +4729,7 @@
     , 
   
       "Chrome 16": {
-        "count": "1576",
+        "count": "1578",
         "summary_score": "94",
         "results": {
           "postMessage API": {
@@ -4729,7 +4879,7 @@
     , 
   
       "Chrome 17": {
-        "count": "1406",
+        "count": "1408",
         "summary_score": "94",
         "results": {
           "postMessage API": {
@@ -4879,7 +5029,7 @@
     , 
   
       "Chrome 18": {
-        "count": "1321",
+        "count": "1348",
         "summary_score": "94",
         "results": {
           "postMessage API": {
@@ -4954,7 +5104,7 @@
     , 
   
       "Chrome 19": {
-        "count": "897",
+        "count": "900",
         "summary_score": "94",
         "results": {
           "postMessage API": {
@@ -5104,7 +5254,7 @@
     , 
   
       "Chrome 20": {
-        "count": "713",
+        "count": "719",
         "summary_score": "94",
         "results": {
           "postMessage API": {
@@ -5179,7 +5329,7 @@
     , 
   
       "Chrome 21": {
-        "count": "1019",
+        "count": "1030",
         "summary_score": "94",
         "results": {
           "postMessage API": {
@@ -5329,7 +5479,7 @@
     , 
   
       "Chrome 22": {
-        "count": "901",
+        "count": "957",
         "summary_score": "94",
         "results": {
           "postMessage API": {
@@ -5479,7 +5629,7 @@
     , 
   
       "Chrome 23": {
-        "count": "1143",
+        "count": "1155",
         "summary_score": "94",
         "results": {
           "postMessage API": {
@@ -5629,7 +5779,7 @@
     , 
   
       "Chrome 24": {
-        "count": "901",
+        "count": "922",
         "summary_score": "94",
         "results": {
           "postMessage API": {
@@ -5854,7 +6004,7 @@
     , 
   
       "Chrome 25": {
-        "count": "778",
+        "count": "845",
         "summary_score": "94",
         "results": {
           "postMessage API": {
@@ -6004,7 +6154,7 @@
     , 
   
       "Chrome 26": {
-        "count": "525",
+        "count": "1605",
         "summary_score": "94",
         "results": {
           "postMessage API": {
@@ -6079,7 +6229,7 @@
     , 
   
       "Chrome Frame (Chrome Frame 26) 26": {
-        "count": "7",
+        "count": "9",
         "summary_score": "88",
         "results": {
           "postMessage API": {
@@ -6154,7 +6304,7 @@
     , 
   
       "Chrome 27": {
-        "count": "94",
+        "count": "1100",
         "summary_score": "94",
         "results": {
           "postMessage API": {
@@ -6229,7 +6379,7 @@
     , 
   
       "Chrome Frame (Chrome Frame 27) 27": {
-        "count": "1",
+        "count": "5",
         "summary_score": "88",
         "results": {
           "postMessage API": {
@@ -6304,7 +6454,157 @@
     , 
   
       "Chrome 28": {
-        "count": "45",
+        "count": "193",
+        "summary_score": "94",
+        "results": {
+          "postMessage API": {
+            "result": "yes"
+          }, 
+        
+          "JSON.parse API": {
+            "result": "yes"
+          }, 
+        
+          "toStaticHTML API": {
+            "result": "no"
+          }, 
+        
+          "httpOnly cookie API": {
+            "result": "yes"
+          }, 
+        
+          "X-Frame-Options": {
+            "result": "yes"
+          }, 
+        
+          "X-Content-Type-Options": {
+            "result": "yes"
+          }, 
+        
+          "Block reflected XSS": {
+            "result": "yes"
+          }, 
+        
+          "Block location spoofing": {
+            "result": "yes"
+          }, 
+        
+          "Block JSON hijacking": {
+            "result": "yes"
+          }, 
+        
+          "Block XSS in CSS": {
+            "result": "yes"
+          }, 
+        
+          "Sandbox attribute": {
+            "result": "yes"
+          }, 
+        
+          "Origin header": {
+            "result": "yes"
+          }, 
+        
+          "Strict Transport Security": {
+            "result": "yes"
+          }, 
+        
+          "Block cross-origin CSS attacks": {
+            "result": "yes"
+          }, 
+        
+          "Cross Origin Resource Sharing": {
+            "result": "yes"
+          }, 
+        
+          "Block visited link sniffing": {
+            "result": "yes"
+          }, 
+        
+          "Content Security Policy": {
+            "result": "yes"
+          }
+        }
+      }
+    , 
+  
+      "Chrome 29": {
+        "count": "65",
+        "summary_score": "94",
+        "results": {
+          "postMessage API": {
+            "result": "yes"
+          }, 
+        
+          "JSON.parse API": {
+            "result": "yes"
+          }, 
+        
+          "toStaticHTML API": {
+            "result": "no"
+          }, 
+        
+          "httpOnly cookie API": {
+            "result": "yes"
+          }, 
+        
+          "X-Frame-Options": {
+            "result": "yes"
+          }, 
+        
+          "X-Content-Type-Options": {
+            "result": "yes"
+          }, 
+        
+          "Block reflected XSS": {
+            "result": "yes"
+          }, 
+        
+          "Block location spoofing": {
+            "result": "yes"
+          }, 
+        
+          "Block JSON hijacking": {
+            "result": "yes"
+          }, 
+        
+          "Block XSS in CSS": {
+            "result": "yes"
+          }, 
+        
+          "Sandbox attribute": {
+            "result": "yes"
+          }, 
+        
+          "Origin header": {
+            "result": "yes"
+          }, 
+        
+          "Strict Transport Security": {
+            "result": "yes"
+          }, 
+        
+          "Block cross-origin CSS attacks": {
+            "result": "yes"
+          }, 
+        
+          "Cross Origin Resource Sharing": {
+            "result": "yes"
+          }, 
+        
+          "Block visited link sniffing": {
+            "result": "yes"
+          }, 
+        
+          "Content Security Policy": {
+            "result": "yes"
+          }
+        }
+      }
+    , 
+  
+      "Chrome 30": {
+        "count": "3",
         "summary_score": "94",
         "results": {
           "postMessage API": {
@@ -6679,7 +6979,7 @@
     , 
   
       "Chrome Frame 26": {
-        "count": "3",
+        "count": "7",
         "summary_score": "64",
         "results": {
           "postMessage API": {
@@ -6740,6 +7040,81 @@
         
           "Cross Origin Resource Sharing": {
             "result": "yes"
+          }, 
+        
+          "Block visited link sniffing": {
+            "result": "no"
+          }, 
+        
+          "Content Security Policy": {
+            "result": "no"
+          }
+        }
+      }
+    , 
+  
+      "Chrome Frame 27": {
+        "count": "2",
+        "summary_score": "11",
+        "results": {
+          "postMessage API": {
+            "result": "no"
+          }, 
+        
+          "JSON.parse API": {
+            "result": "no"
+          }, 
+        
+          "toStaticHTML API": {
+            "result": "no"
+          }, 
+        
+          "httpOnly cookie API": {
+            "result": "yes"
+          }, 
+        
+          "X-Frame-Options": {
+            "result": "no"
+          }, 
+        
+          "X-Content-Type-Options": {
+            "result": "no"
+          }, 
+        
+          "Block reflected XSS": {
+            "result": "no"
+          }, 
+        
+          "Block location spoofing": {
+            "result": "no"
+          }, 
+        
+          "Block JSON hijacking": {
+            "result": "yes"
+          }, 
+        
+          "Block XSS in CSS": {
+            "result": "no"
+          }, 
+        
+          "Sandbox attribute": {
+            "result": "no"
+          }, 
+        
+          "Origin header": {
+            "result": "no"
+          }, 
+        
+          "Strict Transport Security": {
+            "result": "no"
+          }, 
+        
+          "Block cross-origin CSS attacks": {
+            "result": "no"
+          }, 
+        
+          "Cross Origin Resource Sharing": {
+            "result": "no"
           }, 
         
           "Block visited link sniffing": {
@@ -6829,7 +7204,7 @@
     , 
   
       "Chrome Mobile 18": {
-        "count": "14",
+        "count": "29",
         "summary_score": "94",
         "results": {
           "postMessage API": {
@@ -6904,7 +7279,7 @@
     , 
   
       "Chrome Mobile 19": {
-        "count": "5",
+        "count": "7",
         "summary_score": "88",
         "results": {
           "postMessage API": {
@@ -6979,7 +7354,7 @@
     , 
   
       "Chrome Mobile 25": {
-        "count": "54",
+        "count": "61",
         "summary_score": "94",
         "results": {
           "postMessage API": {
@@ -7054,7 +7429,7 @@
     , 
   
       "Chrome Mobile 26": {
-        "count": "37",
+        "count": "71",
         "summary_score": "94",
         "results": {
           "postMessage API": {
@@ -7079,6 +7454,231 @@
         
           "X-Content-Type-Options": {
             "result": "yes"
+          }, 
+        
+          "Block reflected XSS": {
+            "result": "yes"
+          }, 
+        
+          "Block location spoofing": {
+            "result": "yes"
+          }, 
+        
+          "Block JSON hijacking": {
+            "result": "yes"
+          }, 
+        
+          "Block XSS in CSS": {
+            "result": "yes"
+          }, 
+        
+          "Sandbox attribute": {
+            "result": "yes"
+          }, 
+        
+          "Origin header": {
+            "result": "yes"
+          }, 
+        
+          "Strict Transport Security": {
+            "result": "yes"
+          }, 
+        
+          "Block cross-origin CSS attacks": {
+            "result": "yes"
+          }, 
+        
+          "Cross Origin Resource Sharing": {
+            "result": "yes"
+          }, 
+        
+          "Block visited link sniffing": {
+            "result": "yes"
+          }, 
+        
+          "Content Security Policy": {
+            "result": "yes"
+          }
+        }
+      }
+    , 
+  
+      "Chrome Mobile 27": {
+        "count": "39",
+        "summary_score": "94",
+        "results": {
+          "postMessage API": {
+            "result": "yes"
+          }, 
+        
+          "JSON.parse API": {
+            "result": "yes"
+          }, 
+        
+          "toStaticHTML API": {
+            "result": "no"
+          }, 
+        
+          "httpOnly cookie API": {
+            "result": "yes"
+          }, 
+        
+          "X-Frame-Options": {
+            "result": "yes"
+          }, 
+        
+          "X-Content-Type-Options": {
+            "result": "yes"
+          }, 
+        
+          "Block reflected XSS": {
+            "result": "yes"
+          }, 
+        
+          "Block location spoofing": {
+            "result": "yes"
+          }, 
+        
+          "Block JSON hijacking": {
+            "result": "yes"
+          }, 
+        
+          "Block XSS in CSS": {
+            "result": "yes"
+          }, 
+        
+          "Sandbox attribute": {
+            "result": "yes"
+          }, 
+        
+          "Origin header": {
+            "result": "yes"
+          }, 
+        
+          "Strict Transport Security": {
+            "result": "yes"
+          }, 
+        
+          "Block cross-origin CSS attacks": {
+            "result": "yes"
+          }, 
+        
+          "Cross Origin Resource Sharing": {
+            "result": "yes"
+          }, 
+        
+          "Block visited link sniffing": {
+            "result": "yes"
+          }, 
+        
+          "Content Security Policy": {
+            "result": "yes"
+          }
+        }
+      }
+    , 
+  
+      "Chrome Mobile 28": {
+        "count": "6",
+        "summary_score": "94",
+        "results": {
+          "postMessage API": {
+            "result": "yes"
+          }, 
+        
+          "JSON.parse API": {
+            "result": "yes"
+          }, 
+        
+          "toStaticHTML API": {
+            "result": "no"
+          }, 
+        
+          "httpOnly cookie API": {
+            "result": "yes"
+          }, 
+        
+          "X-Frame-Options": {
+            "result": "yes"
+          }, 
+        
+          "X-Content-Type-Options": {
+            "result": "yes"
+          }, 
+        
+          "Block reflected XSS": {
+            "result": "yes"
+          }, 
+        
+          "Block location spoofing": {
+            "result": "yes"
+          }, 
+        
+          "Block JSON hijacking": {
+            "result": "yes"
+          }, 
+        
+          "Block XSS in CSS": {
+            "result": "yes"
+          }, 
+        
+          "Sandbox attribute": {
+            "result": "yes"
+          }, 
+        
+          "Origin header": {
+            "result": "yes"
+          }, 
+        
+          "Strict Transport Security": {
+            "result": "yes"
+          }, 
+        
+          "Block cross-origin CSS attacks": {
+            "result": "yes"
+          }, 
+        
+          "Cross Origin Resource Sharing": {
+            "result": "yes"
+          }, 
+        
+          "Block visited link sniffing": {
+            "result": "yes"
+          }, 
+        
+          "Content Security Policy": {
+            "result": "yes"
+          }
+        }
+      }
+    , 
+  
+      "Chrome Mobile iOS 21": {
+        "count": "1",
+        "summary_score": "88",
+        "results": {
+          "postMessage API": {
+            "result": "yes"
+          }, 
+        
+          "JSON.parse API": {
+            "result": "yes"
+          }, 
+        
+          "toStaticHTML API": {
+            "result": "no"
+          }, 
+        
+          "httpOnly cookie API": {
+            "result": "yes"
+          }, 
+        
+          "X-Frame-Options": {
+            "result": "yes"
+          }, 
+        
+          "X-Content-Type-Options": {
+            "result": "no"
           }, 
         
           "Block reflected XSS": {
@@ -7279,7 +7879,82 @@
     , 
   
       "Chrome Mobile iOS 26": {
-        "count": "5",
+        "count": "15",
+        "summary_score": "88",
+        "results": {
+          "postMessage API": {
+            "result": "yes"
+          }, 
+        
+          "JSON.parse API": {
+            "result": "yes"
+          }, 
+        
+          "toStaticHTML API": {
+            "result": "no"
+          }, 
+        
+          "httpOnly cookie API": {
+            "result": "yes"
+          }, 
+        
+          "X-Frame-Options": {
+            "result": "yes"
+          }, 
+        
+          "X-Content-Type-Options": {
+            "result": "no"
+          }, 
+        
+          "Block reflected XSS": {
+            "result": "yes"
+          }, 
+        
+          "Block location spoofing": {
+            "result": "yes"
+          }, 
+        
+          "Block JSON hijacking": {
+            "result": "yes"
+          }, 
+        
+          "Block XSS in CSS": {
+            "result": "yes"
+          }, 
+        
+          "Sandbox attribute": {
+            "result": "yes"
+          }, 
+        
+          "Origin header": {
+            "result": "yes"
+          }, 
+        
+          "Strict Transport Security": {
+            "result": "yes"
+          }, 
+        
+          "Block cross-origin CSS attacks": {
+            "result": "yes"
+          }, 
+        
+          "Cross Origin Resource Sharing": {
+            "result": "yes"
+          }, 
+        
+          "Block visited link sniffing": {
+            "result": "yes"
+          }, 
+        
+          "Content Security Policy": {
+            "result": "yes"
+          }
+        }
+      }
+    , 
+  
+      "Chrome Mobile iOS 27": {
+        "count": "3",
         "summary_score": "88",
         "results": {
           "postMessage API": {
@@ -7654,8 +8329,8 @@
     , 
   
       "Chromium 15": {
-        "count": "54",
-        "summary_score": "88",
+        "count": "57",
+        "summary_score": "94",
         "results": {
           "postMessage API": {
             "result": "yes"
@@ -7722,7 +8397,7 @@
           }, 
         
           "Content Security Policy": {
-            "result": "no"
+            "result": "yes"
           }
         }
       }
@@ -7804,7 +8479,7 @@
     , 
   
       "Chromium 17": {
-        "count": "52",
+        "count": "55",
         "summary_score": "94",
         "results": {
           "postMessage API": {
@@ -7879,7 +8554,7 @@
     , 
   
       "Chromium 18": {
-        "count": "102",
+        "count": "103",
         "summary_score": "94",
         "results": {
           "postMessage API": {
@@ -8254,7 +8929,7 @@
     , 
   
       "Chromium 24": {
-        "count": "8",
+        "count": "9",
         "summary_score": "94",
         "results": {
           "postMessage API": {
@@ -8329,7 +9004,157 @@
     , 
   
       "Chromium 25": {
-        "count": "19",
+        "count": "66",
+        "summary_score": "94",
+        "results": {
+          "postMessage API": {
+            "result": "yes"
+          }, 
+        
+          "JSON.parse API": {
+            "result": "yes"
+          }, 
+        
+          "toStaticHTML API": {
+            "result": "no"
+          }, 
+        
+          "httpOnly cookie API": {
+            "result": "yes"
+          }, 
+        
+          "X-Frame-Options": {
+            "result": "yes"
+          }, 
+        
+          "X-Content-Type-Options": {
+            "result": "yes"
+          }, 
+        
+          "Block reflected XSS": {
+            "result": "yes"
+          }, 
+        
+          "Block location spoofing": {
+            "result": "yes"
+          }, 
+        
+          "Block JSON hijacking": {
+            "result": "yes"
+          }, 
+        
+          "Block XSS in CSS": {
+            "result": "yes"
+          }, 
+        
+          "Sandbox attribute": {
+            "result": "yes"
+          }, 
+        
+          "Origin header": {
+            "result": "yes"
+          }, 
+        
+          "Strict Transport Security": {
+            "result": "yes"
+          }, 
+        
+          "Block cross-origin CSS attacks": {
+            "result": "yes"
+          }, 
+        
+          "Cross Origin Resource Sharing": {
+            "result": "yes"
+          }, 
+        
+          "Block visited link sniffing": {
+            "result": "yes"
+          }, 
+        
+          "Content Security Policy": {
+            "result": "yes"
+          }
+        }
+      }
+    , 
+  
+      "Chromium 26": {
+        "count": "1",
+        "summary_score": "94",
+        "results": {
+          "postMessage API": {
+            "result": "yes"
+          }, 
+        
+          "JSON.parse API": {
+            "result": "yes"
+          }, 
+        
+          "toStaticHTML API": {
+            "result": "no"
+          }, 
+        
+          "httpOnly cookie API": {
+            "result": "yes"
+          }, 
+        
+          "X-Frame-Options": {
+            "result": "yes"
+          }, 
+        
+          "X-Content-Type-Options": {
+            "result": "yes"
+          }, 
+        
+          "Block reflected XSS": {
+            "result": "yes"
+          }, 
+        
+          "Block location spoofing": {
+            "result": "yes"
+          }, 
+        
+          "Block JSON hijacking": {
+            "result": "yes"
+          }, 
+        
+          "Block XSS in CSS": {
+            "result": "yes"
+          }, 
+        
+          "Sandbox attribute": {
+            "result": "yes"
+          }, 
+        
+          "Origin header": {
+            "result": "yes"
+          }, 
+        
+          "Strict Transport Security": {
+            "result": "yes"
+          }, 
+        
+          "Block cross-origin CSS attacks": {
+            "result": "yes"
+          }, 
+        
+          "Cross Origin Resource Sharing": {
+            "result": "yes"
+          }, 
+        
+          "Block visited link sniffing": {
+            "result": "yes"
+          }, 
+        
+          "Content Security Policy": {
+            "result": "yes"
+          }
+        }
+      }
+    , 
+  
+      "Chromium 27": {
+        "count": "2",
         "summary_score": "94",
         "results": {
           "postMessage API": {
@@ -9379,7 +10204,7 @@
     , 
   
       "Dolfin 3": {
-        "count": "11",
+        "count": "12",
         "summary_score": "64",
         "results": {
           "postMessage API": {
@@ -9529,7 +10354,7 @@
     , 
   
       "Epiphany 3": {
-        "count": "30",
+        "count": "32",
         "summary_score": "70",
         "results": {
           "postMessage API": {
@@ -10654,8 +11479,8 @@
     , 
   
       "Firefox 2": {
-        "count": "106",
-        "summary_score": "35",
+        "count": "107",
+        "summary_score": "41",
         "results": {
           "postMessage API": {
             "result": "no"
@@ -10674,7 +11499,7 @@
           }, 
         
           "X-Frame-Options": {
-            "result": "no"
+            "result": "yes"
           }, 
         
           "X-Content-Type-Options": {
@@ -10729,7 +11554,7 @@
     , 
   
       "Firefox 3": {
-        "count": "20358",
+        "count": "20373",
         "summary_score": "52",
         "results": {
           "postMessage API": {
@@ -10879,8 +11704,8 @@
     , 
   
       "Firefox (Namoroka) 3": {
-        "count": "274",
-        "summary_score": "64",
+        "count": "277",
+        "summary_score": "70",
         "results": {
           "postMessage API": {
             "result": "yes"
@@ -10903,7 +11728,7 @@
           }, 
         
           "X-Content-Type-Options": {
-            "result": "no"
+            "result": "yes"
           }, 
         
           "Block reflected XSS": {
@@ -11029,7 +11854,7 @@
     , 
   
       "Firefox 4": {
-        "count": "3692",
+        "count": "3694",
         "summary_score": "76",
         "results": {
           "postMessage API": {
@@ -11104,7 +11929,7 @@
     , 
   
       "Firefox 5": {
-        "count": "2127",
+        "count": "2130",
         "summary_score": "70",
         "results": {
           "postMessage API": {
@@ -11179,7 +12004,7 @@
     , 
   
       "Firefox 9": {
-        "count": "1165",
+        "count": "1168",
         "summary_score": "70",
         "results": {
           "postMessage API": {
@@ -11254,7 +12079,7 @@
     , 
   
       "Firefox 13": {
-        "count": "742",
+        "count": "749",
         "summary_score": "70",
         "results": {
           "postMessage API": {
@@ -11479,7 +12304,7 @@
     , 
   
       "Firefox 6": {
-        "count": "1115",
+        "count": "1117",
         "summary_score": "70",
         "results": {
           "postMessage API": {
@@ -11554,7 +12379,7 @@
     , 
   
       "Firefox 7": {
-        "count": "1039",
+        "count": "1041",
         "summary_score": "64",
         "results": {
           "postMessage API": {
@@ -11704,7 +12529,7 @@
     , 
   
       "Firefox 10": {
-        "count": "1106",
+        "count": "1111",
         "summary_score": "70",
         "results": {
           "postMessage API": {
@@ -11779,7 +12604,7 @@
     , 
   
       "Firefox 11": {
-        "count": "729",
+        "count": "734",
         "summary_score": "70",
         "results": {
           "postMessage API": {
@@ -11854,7 +12679,7 @@
     , 
   
       "Firefox 12": {
-        "count": "650",
+        "count": "658",
         "summary_score": "70",
         "results": {
           "postMessage API": {
@@ -11929,7 +12754,7 @@
     , 
   
       "Firefox 14": {
-        "count": "648",
+        "count": "655",
         "summary_score": "70",
         "results": {
           "postMessage API": {
@@ -12004,7 +12829,7 @@
     , 
   
       "Firefox 15": {
-        "count": "684",
+        "count": "691",
         "summary_score": "70",
         "results": {
           "postMessage API": {
@@ -12079,7 +12904,7 @@
     , 
   
       "Firefox 16": {
-        "count": "874",
+        "count": "895",
         "summary_score": "70",
         "results": {
           "postMessage API": {
@@ -12154,7 +12979,7 @@
     , 
   
       "Firefox 17": {
-        "count": "1128",
+        "count": "1210",
         "summary_score": "76",
         "results": {
           "postMessage API": {
@@ -12229,7 +13054,7 @@
     , 
   
       "Firefox 18": {
-        "count": "1079",
+        "count": "1108",
         "summary_score": "76",
         "results": {
           "postMessage API": {
@@ -12304,7 +13129,7 @@
     , 
   
       "Firefox 19": {
-        "count": "1141",
+        "count": "1167",
         "summary_score": "76",
         "results": {
           "postMessage API": {
@@ -12379,7 +13204,7 @@
     , 
   
       "Firefox 20": {
-        "count": "583",
+        "count": "1304",
         "summary_score": "76",
         "results": {
           "postMessage API": {
@@ -12454,7 +13279,7 @@
     , 
   
       "Firefox 21": {
-        "count": "180",
+        "count": "900",
         "summary_score": "76",
         "results": {
           "postMessage API": {
@@ -12529,7 +13354,7 @@
     , 
   
       "Firefox 22": {
-        "count": "152",
+        "count": "291",
         "summary_score": "76",
         "results": {
           "postMessage API": {
@@ -12604,7 +13429,7 @@
     , 
   
       "Firefox 23": {
-        "count": "63",
+        "count": "126",
         "summary_score": "76",
         "results": {
           "postMessage API": {
@@ -12679,8 +13504,8 @@
     , 
   
       "Firefox 24": {
-        "count": "1",
-        "summary_score": "94",
+        "count": "92",
+        "summary_score": "76",
         "results": {
           "postMessage API": {
             "result": "yes"
@@ -12691,7 +13516,7 @@
           }, 
         
           "toStaticHTML API": {
-            "result": "yes"
+            "result": "no"
           }, 
         
           "httpOnly cookie API": {
@@ -12703,11 +13528,86 @@
           }, 
         
           "X-Content-Type-Options": {
-            "result": "yes"
+            "result": "no"
           }, 
         
           "Block reflected XSS": {
+            "result": "no"
+          }, 
+        
+          "Block location spoofing": {
             "result": "yes"
+          }, 
+        
+          "Block JSON hijacking": {
+            "result": "yes"
+          }, 
+        
+          "Block XSS in CSS": {
+            "result": "yes"
+          }, 
+        
+          "Sandbox attribute": {
+            "result": "yes"
+          }, 
+        
+          "Origin header": {
+            "result": "no"
+          }, 
+        
+          "Strict Transport Security": {
+            "result": "yes"
+          }, 
+        
+          "Block cross-origin CSS attacks": {
+            "result": "yes"
+          }, 
+        
+          "Cross Origin Resource Sharing": {
+            "result": "yes"
+          }, 
+        
+          "Block visited link sniffing": {
+            "result": "yes"
+          }, 
+        
+          "Content Security Policy": {
+            "result": "yes"
+          }
+        }
+      }
+    , 
+  
+      "Firefox 25": {
+        "count": "3",
+        "summary_score": "76",
+        "results": {
+          "postMessage API": {
+            "result": "yes"
+          }, 
+        
+          "JSON.parse API": {
+            "result": "yes"
+          }, 
+        
+          "toStaticHTML API": {
+            "result": "no"
+          }, 
+        
+          "httpOnly cookie API": {
+            "result": "yes"
+          }, 
+        
+          "X-Frame-Options": {
+            "result": "yes"
+          }, 
+        
+          "X-Content-Type-Options": {
+            "result": "no"
+          }, 
+        
+          "Block reflected XSS": {
+            "result": "no"
           }, 
         
           "Block location spoofing": {
@@ -13055,6 +13955,81 @@
   
       "Firefox Alpha 22": {
         "count": "3",
+        "summary_score": "94",
+        "results": {
+          "postMessage API": {
+            "result": "yes"
+          }, 
+        
+          "JSON.parse API": {
+            "result": "yes"
+          }, 
+        
+          "toStaticHTML API": {
+            "result": "yes"
+          }, 
+        
+          "httpOnly cookie API": {
+            "result": "yes"
+          }, 
+        
+          "X-Frame-Options": {
+            "result": "yes"
+          }, 
+        
+          "X-Content-Type-Options": {
+            "result": "yes"
+          }, 
+        
+          "Block reflected XSS": {
+            "result": "yes"
+          }, 
+        
+          "Block location spoofing": {
+            "result": "yes"
+          }, 
+        
+          "Block JSON hijacking": {
+            "result": "yes"
+          }, 
+        
+          "Block XSS in CSS": {
+            "result": "yes"
+          }, 
+        
+          "Sandbox attribute": {
+            "result": "yes"
+          }, 
+        
+          "Origin header": {
+            "result": "no"
+          }, 
+        
+          "Strict Transport Security": {
+            "result": "yes"
+          }, 
+        
+          "Block cross-origin CSS attacks": {
+            "result": "yes"
+          }, 
+        
+          "Cross Origin Resource Sharing": {
+            "result": "yes"
+          }, 
+        
+          "Block visited link sniffing": {
+            "result": "yes"
+          }, 
+        
+          "Content Security Policy": {
+            "result": "yes"
+          }
+        }
+      }
+    , 
+  
+      "Firefox Alpha 23": {
+        "count": "6",
         "summary_score": "94",
         "results": {
           "postMessage API": {
@@ -14178,8 +15153,233 @@
       }
     , 
   
+      "Firefox Mobile 18": {
+        "count": "1",
+        "summary_score": "76",
+        "results": {
+          "postMessage API": {
+            "result": "yes"
+          }, 
+        
+          "JSON.parse API": {
+            "result": "yes"
+          }, 
+        
+          "toStaticHTML API": {
+            "result": "no"
+          }, 
+        
+          "httpOnly cookie API": {
+            "result": "yes"
+          }, 
+        
+          "X-Frame-Options": {
+            "result": "yes"
+          }, 
+        
+          "X-Content-Type-Options": {
+            "result": "no"
+          }, 
+        
+          "Block reflected XSS": {
+            "result": "no"
+          }, 
+        
+          "Block location spoofing": {
+            "result": "yes"
+          }, 
+        
+          "Block JSON hijacking": {
+            "result": "yes"
+          }, 
+        
+          "Block XSS in CSS": {
+            "result": "yes"
+          }, 
+        
+          "Sandbox attribute": {
+            "result": "yes"
+          }, 
+        
+          "Origin header": {
+            "result": "no"
+          }, 
+        
+          "Strict Transport Security": {
+            "result": "yes"
+          }, 
+        
+          "Block cross-origin CSS attacks": {
+            "result": "yes"
+          }, 
+        
+          "Cross Origin Resource Sharing": {
+            "result": "yes"
+          }, 
+        
+          "Block visited link sniffing": {
+            "result": "yes"
+          }, 
+        
+          "Content Security Policy": {
+            "result": "yes"
+          }
+        }
+      }
+    , 
+  
       "Firefox Mobile 22": {
-        "count": "5",
+        "count": "11",
+        "summary_score": "76",
+        "results": {
+          "postMessage API": {
+            "result": "yes"
+          }, 
+        
+          "JSON.parse API": {
+            "result": "yes"
+          }, 
+        
+          "toStaticHTML API": {
+            "result": "no"
+          }, 
+        
+          "httpOnly cookie API": {
+            "result": "yes"
+          }, 
+        
+          "X-Frame-Options": {
+            "result": "yes"
+          }, 
+        
+          "X-Content-Type-Options": {
+            "result": "no"
+          }, 
+        
+          "Block reflected XSS": {
+            "result": "no"
+          }, 
+        
+          "Block location spoofing": {
+            "result": "yes"
+          }, 
+        
+          "Block JSON hijacking": {
+            "result": "yes"
+          }, 
+        
+          "Block XSS in CSS": {
+            "result": "yes"
+          }, 
+        
+          "Sandbox attribute": {
+            "result": "yes"
+          }, 
+        
+          "Origin header": {
+            "result": "no"
+          }, 
+        
+          "Strict Transport Security": {
+            "result": "yes"
+          }, 
+        
+          "Block cross-origin CSS attacks": {
+            "result": "yes"
+          }, 
+        
+          "Cross Origin Resource Sharing": {
+            "result": "yes"
+          }, 
+        
+          "Block visited link sniffing": {
+            "result": "yes"
+          }, 
+        
+          "Content Security Policy": {
+            "result": "yes"
+          }
+        }
+      }
+    , 
+  
+      "Firefox Mobile 23": {
+        "count": "1",
+        "summary_score": "76",
+        "results": {
+          "postMessage API": {
+            "result": "yes"
+          }, 
+        
+          "JSON.parse API": {
+            "result": "yes"
+          }, 
+        
+          "toStaticHTML API": {
+            "result": "no"
+          }, 
+        
+          "httpOnly cookie API": {
+            "result": "yes"
+          }, 
+        
+          "X-Frame-Options": {
+            "result": "yes"
+          }, 
+        
+          "X-Content-Type-Options": {
+            "result": "no"
+          }, 
+        
+          "Block reflected XSS": {
+            "result": "no"
+          }, 
+        
+          "Block location spoofing": {
+            "result": "yes"
+          }, 
+        
+          "Block JSON hijacking": {
+            "result": "yes"
+          }, 
+        
+          "Block XSS in CSS": {
+            "result": "yes"
+          }, 
+        
+          "Sandbox attribute": {
+            "result": "yes"
+          }, 
+        
+          "Origin header": {
+            "result": "no"
+          }, 
+        
+          "Strict Transport Security": {
+            "result": "yes"
+          }, 
+        
+          "Block cross-origin CSS attacks": {
+            "result": "yes"
+          }, 
+        
+          "Cross Origin Resource Sharing": {
+            "result": "yes"
+          }, 
+        
+          "Block visited link sniffing": {
+            "result": "yes"
+          }, 
+        
+          "Content Security Policy": {
+            "result": "yes"
+          }
+        }
+      }
+    , 
+  
+      "Firefox Mobile 24": {
+        "count": "7",
         "summary_score": "76",
         "results": {
           "postMessage API": {
@@ -14628,8 +15828,83 @@
       }
     , 
   
+      "iCab 5": {
+        "count": "1",
+        "summary_score": "82",
+        "results": {
+          "postMessage API": {
+            "result": "yes"
+          }, 
+        
+          "JSON.parse API": {
+            "result": "yes"
+          }, 
+        
+          "toStaticHTML API": {
+            "result": "no"
+          }, 
+        
+          "httpOnly cookie API": {
+            "result": "yes"
+          }, 
+        
+          "X-Frame-Options": {
+            "result": "yes"
+          }, 
+        
+          "X-Content-Type-Options": {
+            "result": "no"
+          }, 
+        
+          "Block reflected XSS": {
+            "result": "yes"
+          }, 
+        
+          "Block location spoofing": {
+            "result": "yes"
+          }, 
+        
+          "Block JSON hijacking": {
+            "result": "yes"
+          }, 
+        
+          "Block XSS in CSS": {
+            "result": "yes"
+          }, 
+        
+          "Sandbox attribute": {
+            "result": "yes"
+          }, 
+        
+          "Origin header": {
+            "result": "yes"
+          }, 
+        
+          "Strict Transport Security": {
+            "result": "no"
+          }, 
+        
+          "Block cross-origin CSS attacks": {
+            "result": "yes"
+          }, 
+        
+          "Cross Origin Resource Sharing": {
+            "result": "yes"
+          }, 
+        
+          "Block visited link sniffing": {
+            "result": "yes"
+          }, 
+        
+          "Content Security Policy": {
+            "result": "yes"
+          }
+        }
+      }
+    , 
+  
       "Iceape 2": {
-        "count": "11",
+        "count": "12",
         "summary_score": "52",
         "results": {
           "postMessage API": {
@@ -14779,7 +16054,7 @@
     , 
   
       "Iceweasel 3": {
-        "count": "272",
+        "count": "276",
         "summary_score": "47",
         "results": {
           "postMessage API": {
@@ -15304,7 +16579,7 @@
     , 
   
       "Iceweasel 10": {
-        "count": "31",
+        "count": "37",
         "summary_score": "88",
         "results": {
           "postMessage API": {
@@ -15829,7 +17104,7 @@
     , 
   
       "Iceweasel 17": {
-        "count": "4",
+        "count": "6",
         "summary_score": "76",
         "results": {
           "postMessage API": {
@@ -16054,7 +17329,7 @@
     , 
   
       "Iceweasel 20": {
-        "count": "5",
+        "count": "18",
         "summary_score": "94",
         "results": {
           "postMessage API": {
@@ -16083,6 +17358,81 @@
         
           "Block reflected XSS": {
             "result": "yes"
+          }, 
+        
+          "Block location spoofing": {
+            "result": "yes"
+          }, 
+        
+          "Block JSON hijacking": {
+            "result": "yes"
+          }, 
+        
+          "Block XSS in CSS": {
+            "result": "yes"
+          }, 
+        
+          "Sandbox attribute": {
+            "result": "yes"
+          }, 
+        
+          "Origin header": {
+            "result": "no"
+          }, 
+        
+          "Strict Transport Security": {
+            "result": "yes"
+          }, 
+        
+          "Block cross-origin CSS attacks": {
+            "result": "yes"
+          }, 
+        
+          "Cross Origin Resource Sharing": {
+            "result": "yes"
+          }, 
+        
+          "Block visited link sniffing": {
+            "result": "yes"
+          }, 
+        
+          "Content Security Policy": {
+            "result": "yes"
+          }
+        }
+      }
+    , 
+  
+      "Iceweasel 21": {
+        "count": "3",
+        "summary_score": "76",
+        "results": {
+          "postMessage API": {
+            "result": "yes"
+          }, 
+        
+          "JSON.parse API": {
+            "result": "yes"
+          }, 
+        
+          "toStaticHTML API": {
+            "result": "no"
+          }, 
+        
+          "httpOnly cookie API": {
+            "result": "yes"
+          }, 
+        
+          "X-Frame-Options": {
+            "result": "yes"
+          }, 
+        
+          "X-Content-Type-Options": {
+            "result": "no"
+          }, 
+        
+          "Block reflected XSS": {
+            "result": "no"
           }, 
         
           "Block location spoofing": {
@@ -16279,7 +17629,7 @@
     , 
   
       "IE 6": {
-        "count": "449",
+        "count": "457",
         "summary_score": "11",
         "results": {
           "postMessage API": {
@@ -16354,7 +17704,7 @@
     , 
   
       "IE 7": {
-        "count": "1281",
+        "count": "1393",
         "summary_score": "17",
         "results": {
           "postMessage API": {
@@ -16429,7 +17779,7 @@
     , 
   
       "IE 8": {
-        "count": "7621",
+        "count": "7779",
         "summary_score": "64",
         "results": {
           "postMessage API": {
@@ -16504,7 +17854,7 @@
     , 
   
       "IE 9": {
-        "count": "3069",
+        "count": "3344",
         "summary_score": "76",
         "results": {
           "postMessage API": {
@@ -16579,7 +17929,7 @@
     , 
   
       "IE 10": {
-        "count": "522",
+        "count": "842",
         "summary_score": "82",
         "results": {
           "postMessage API": {
@@ -16729,7 +18079,7 @@
     , 
   
       "IE 999": {
-        "count": "30",
+        "count": "35",
         "summary_score": "88",
         "results": {
           "postMessage API": {
@@ -16803,8 +18153,83 @@
       }
     , 
   
+      "IE 10 in Compatibility Mode 5": {
+        "count": "1",
+        "summary_score": "58",
+        "results": {
+          "postMessage API": {
+            "result": "yes"
+          }, 
+        
+          "JSON.parse API": {
+            "result": "no"
+          }, 
+        
+          "toStaticHTML API": {
+            "result": "yes"
+          }, 
+        
+          "httpOnly cookie API": {
+            "result": "yes"
+          }, 
+        
+          "X-Frame-Options": {
+            "result": "yes"
+          }, 
+        
+          "X-Content-Type-Options": {
+            "result": "yes"
+          }, 
+        
+          "Block reflected XSS": {
+            "result": "no"
+          }, 
+        
+          "Block location spoofing": {
+            "result": "no"
+          }, 
+        
+          "Block JSON hijacking": {
+            "result": "yes"
+          }, 
+        
+          "Block XSS in CSS": {
+            "result": "no"
+          }, 
+        
+          "Sandbox attribute": {
+            "result": "yes"
+          }, 
+        
+          "Origin header": {
+            "result": "no"
+          }, 
+        
+          "Strict Transport Security": {
+            "result": "no"
+          }, 
+        
+          "Block cross-origin CSS attacks": {
+            "result": "yes"
+          }, 
+        
+          "Cross Origin Resource Sharing": {
+            "result": "yes"
+          }, 
+        
+          "Block visited link sniffing": {
+            "result": "yes"
+          }, 
+        
+          "Content Security Policy": {
+            "result": "no"
+          }
+        }
+      }
+    , 
+  
       "IE 10 in Compatibility Mode 7": {
-        "count": "36",
+        "count": "47",
         "summary_score": "64",
         "results": {
           "postMessage API": {
@@ -17029,8 +18454,8 @@
     , 
   
       "IE 8 in Compatibility Mode 7": {
-        "count": "170",
-        "summary_score": "47",
+        "count": "182",
+        "summary_score": "52",
         "results": {
           "postMessage API": {
             "result": "yes"
@@ -17057,7 +18482,7 @@
           }, 
         
           "Block reflected XSS": {
-            "result": "no"
+            "result": "yes"
           }, 
         
           "Block location spoofing": {
@@ -17104,7 +18529,7 @@
     , 
   
       "IE 9 in Compatibility Mode 7": {
-        "count": "221",
+        "count": "225",
         "summary_score": "58",
         "results": {
           "postMessage API": {
@@ -17254,7 +18679,7 @@
     , 
   
       "IE Beta 9": {
-        "count": "676",
+        "count": "677",
         "summary_score": "70",
         "results": {
           "postMessage API": {
@@ -17554,7 +18979,7 @@
     , 
   
       "IE Mobile 10": {
-        "count": "6",
+        "count": "9",
         "summary_score": "82",
         "results": {
           "postMessage API": {
@@ -17929,8 +19354,8 @@
     , 
   
       "IE Platform Preview 10": {
-        "count": "152",
-        "summary_score": "76",
+        "count": "225",
+        "summary_score": "82",
         "results": {
           "postMessage API": {
             "result": "yes"
@@ -17957,7 +19382,7 @@
           }, 
         
           "Block reflected XSS": {
-            "result": "no"
+            "result": "yes"
           }, 
         
           "Block location spoofing": {
@@ -18079,7 +19504,7 @@
     , 
   
       "iPad 3": {
-        "count": "96",
+        "count": "98",
         "summary_score": "70",
         "results": {
           "postMessage API": {
@@ -18229,7 +19654,7 @@
     , 
   
       "iPad 5": {
-        "count": "211",
+        "count": "218",
         "summary_score": "82",
         "results": {
           "postMessage API": {
@@ -18304,7 +19729,7 @@
     , 
   
       "iPad 6": {
-        "count": "140",
+        "count": "149",
         "summary_score": "82",
         "results": {
           "postMessage API": {
@@ -18454,7 +19879,7 @@
     , 
   
       "iPhone 3": {
-        "count": "130",
+        "count": "131",
         "summary_score": "47",
         "results": {
           "postMessage API": {
@@ -18604,7 +20029,7 @@
     , 
   
       "iPhone 5": {
-        "count": "196",
+        "count": "197",
         "summary_score": "82",
         "results": {
           "postMessage API": {
@@ -19579,7 +21004,7 @@
     , 
   
       "Iron 10": {
-        "count": "174",
+        "count": "176",
         "summary_score": "82",
         "results": {
           "postMessage API": {
@@ -19804,7 +21229,7 @@
     , 
   
       "Iron 13": {
-        "count": "98",
+        "count": "99",
         "summary_score": "88",
         "results": {
           "postMessage API": {
@@ -20254,7 +21679,7 @@
     , 
   
       "Iron 19": {
-        "count": "54",
+        "count": "55",
         "summary_score": "94",
         "results": {
           "postMessage API": {
@@ -20329,7 +21754,7 @@
     , 
   
       "Iron 25": {
-        "count": "23",
+        "count": "28",
         "summary_score": "94",
         "results": {
           "postMessage API": {
@@ -20404,7 +21829,82 @@
     , 
   
       "Iron 26": {
-        "count": "31",
+        "count": "65",
+        "summary_score": "94",
+        "results": {
+          "postMessage API": {
+            "result": "yes"
+          }, 
+        
+          "JSON.parse API": {
+            "result": "yes"
+          }, 
+        
+          "toStaticHTML API": {
+            "result": "no"
+          }, 
+        
+          "httpOnly cookie API": {
+            "result": "yes"
+          }, 
+        
+          "X-Frame-Options": {
+            "result": "yes"
+          }, 
+        
+          "X-Content-Type-Options": {
+            "result": "yes"
+          }, 
+        
+          "Block reflected XSS": {
+            "result": "yes"
+          }, 
+        
+          "Block location spoofing": {
+            "result": "yes"
+          }, 
+        
+          "Block JSON hijacking": {
+            "result": "yes"
+          }, 
+        
+          "Block XSS in CSS": {
+            "result": "yes"
+          }, 
+        
+          "Sandbox attribute": {
+            "result": "yes"
+          }, 
+        
+          "Origin header": {
+            "result": "yes"
+          }, 
+        
+          "Strict Transport Security": {
+            "result": "yes"
+          }, 
+        
+          "Block cross-origin CSS attacks": {
+            "result": "yes"
+          }, 
+        
+          "Cross Origin Resource Sharing": {
+            "result": "yes"
+          }, 
+        
+          "Block visited link sniffing": {
+            "result": "yes"
+          }, 
+        
+          "Content Security Policy": {
+            "result": "yes"
+          }
+        }
+      }
+    , 
+  
+      "Iron 27": {
+        "count": "35",
         "summary_score": "94",
         "results": {
           "postMessage API": {
@@ -20554,7 +22054,7 @@
     , 
   
       "K-Meleon 1": {
-        "count": "396",
+        "count": "400",
         "summary_score": "58",
         "results": {
           "postMessage API": {
@@ -20779,7 +22279,7 @@
     , 
   
       "Konqueror 4": {
-        "count": "152",
+        "count": "153",
         "summary_score": "29",
         "results": {
           "postMessage API": {
@@ -20929,7 +22429,7 @@
     , 
   
       "LuaKit": {
-        "count": "8",
+        "count": "9",
         "summary_score": "82",
         "results": {
           "postMessage API": {
@@ -21004,7 +22504,7 @@
     , 
   
       "Lunascape 6": {
-        "count": "164",
+        "count": "166",
         "summary_score": "52",
         "results": {
           "postMessage API": {
@@ -21079,7 +22579,7 @@
     , 
   
       "Lynx 2": {
-        "count": "3",
+        "count": "4",
         "summary_score": "76",
         "results": {
           "postMessage API": {
@@ -21228,8 +22728,83 @@
       }
     , 
   
+      "Mail.ru Chromium Browser 17": {
+        "count": "2",
+        "summary_score": "94",
+        "results": {
+          "postMessage API": {
+            "result": "yes"
+          }, 
+        
+          "JSON.parse API": {
+            "result": "yes"
+          }, 
+        
+          "toStaticHTML API": {
+            "result": "no"
+          }, 
+        
+          "httpOnly cookie API": {
+            "result": "yes"
+          }, 
+        
+          "X-Frame-Options": {
+            "result": "yes"
+          }, 
+        
+          "X-Content-Type-Options": {
+            "result": "yes"
+          }, 
+        
+          "Block reflected XSS": {
+            "result": "yes"
+          }, 
+        
+          "Block location spoofing": {
+            "result": "yes"
+          }, 
+        
+          "Block JSON hijacking": {
+            "result": "yes"
+          }, 
+        
+          "Block XSS in CSS": {
+            "result": "yes"
+          }, 
+        
+          "Sandbox attribute": {
+            "result": "yes"
+          }, 
+        
+          "Origin header": {
+            "result": "yes"
+          }, 
+        
+          "Strict Transport Security": {
+            "result": "yes"
+          }, 
+        
+          "Block cross-origin CSS attacks": {
+            "result": "yes"
+          }, 
+        
+          "Cross Origin Resource Sharing": {
+            "result": "yes"
+          }, 
+        
+          "Block visited link sniffing": {
+            "result": "yes"
+          }, 
+        
+          "Content Security Policy": {
+            "result": "yes"
+          }
+        }
+      }
+    , 
+  
       "Maxthon": {
-        "count": "865",
+        "count": "965",
         "summary_score": "82",
         "results": {
           "postMessage API": {
@@ -21304,19 +22879,19 @@
     , 
   
       "Maxthon 0": {
-        "count": "10",
-        "summary_score": "47",
+        "count": "13",
+        "summary_score": "52",
         "results": {
           "postMessage API": {
             "result": "yes"
           }, 
         
           "JSON.parse API": {
-            "result": "no"
+            "result": "yes"
           }, 
         
           "toStaticHTML API": {
-            "result": "yes"
+            "result": "no"
           }, 
         
           "httpOnly cookie API": {
@@ -21328,7 +22903,7 @@
           }, 
         
           "X-Content-Type-Options": {
-            "result": "yes"
+            "result": "no"
           }, 
         
           "Block reflected XSS": {
@@ -21344,7 +22919,7 @@
           }, 
         
           "Block XSS in CSS": {
-            "result": "no"
+            "result": "yes"
           }, 
         
           "Sandbox attribute": {
@@ -21368,7 +22943,7 @@
           }, 
         
           "Block visited link sniffing": {
-            "result": "no"
+            "result": "yes"
           }, 
         
           "Content Security Policy": {
@@ -21529,7 +23104,7 @@
     , 
   
       "Maxthon 3": {
-        "count": "624",
+        "count": "629",
         "summary_score": "82",
         "results": {
           "postMessage API": {
@@ -21604,7 +23179,7 @@
     , 
   
       "Maxthon 4": {
-        "count": "173",
+        "count": "265",
         "summary_score": "82",
         "results": {
           "postMessage API": {
@@ -21679,7 +23254,7 @@
     , 
   
       "Midori 0": {
-        "count": "140",
+        "count": "145",
         "summary_score": "64",
         "results": {
           "postMessage API": {
@@ -21754,7 +23329,7 @@
     , 
   
       "Mobile Safari": {
-        "count": "50",
+        "count": "163",
         "summary_score": "82",
         "results": {
           "postMessage API": {
@@ -21904,7 +23479,7 @@
     , 
   
       "Mobile Safari 5": {
-        "count": "2",
+        "count": "6",
         "summary_score": "82",
         "results": {
           "postMessage API": {
@@ -21979,7 +23554,7 @@
     , 
   
       "Mobile Safari 6": {
-        "count": "45",
+        "count": "153",
         "summary_score": "82",
         "results": {
           "postMessage API": {
@@ -22654,7 +24229,7 @@
     , 
   
       "Netscape 9": {
-        "count": "38",
+        "count": "39",
         "summary_score": "17",
         "results": {
           "postMessage API": {
@@ -23478,6 +25053,81 @@
       }
     , 
   
+      "Nokia Series 40 Ovi Browser 1": {
+        "count": "1",
+        "summary_score": "64",
+        "results": {
+          "postMessage API": {
+            "result": "yes"
+          }, 
+        
+          "JSON.parse API": {
+            "result": "yes"
+          }, 
+        
+          "toStaticHTML API": {
+            "result": "no"
+          }, 
+        
+          "httpOnly cookie API": {
+            "result": "yes"
+          }, 
+        
+          "X-Frame-Options": {
+            "result": "yes"
+          }, 
+        
+          "X-Content-Type-Options": {
+            "result": "no"
+          }, 
+        
+          "Block reflected XSS": {
+            "result": "no"
+          }, 
+        
+          "Block location spoofing": {
+            "result": "yes"
+          }, 
+        
+          "Block JSON hijacking": {
+            "result": "yes"
+          }, 
+        
+          "Block XSS in CSS": {
+            "result": "yes"
+          }, 
+        
+          "Sandbox attribute": {
+            "result": "no"
+          }, 
+        
+          "Origin header": {
+            "result": "no"
+          }, 
+        
+          "Strict Transport Security": {
+            "result": "yes"
+          }, 
+        
+          "Block cross-origin CSS attacks": {
+            "result": "no"
+          }, 
+        
+          "Cross Origin Resource Sharing": {
+            "result": "yes"
+          }, 
+        
+          "Block visited link sniffing": {
+            "result": "yes"
+          }, 
+        
+          "Content Security Policy": {
+            "result": "yes"
+          }
+        }
+      }
+    , 
+  
       "Nokia Series 40 Ovi Browser 2": {
         "count": "1",
         "summary_score": "70",
@@ -24079,7 +25729,7 @@
     , 
   
       "Opera 11": {
-        "count": "3797",
+        "count": "3811",
         "summary_score": "47",
         "results": {
           "postMessage API": {
@@ -24154,7 +25804,7 @@
     , 
   
       "Opera 12": {
-        "count": "2212",
+        "count": "2653",
         "summary_score": "58",
         "results": {
           "postMessage API": {
@@ -24303,8 +25953,158 @@
       }
     , 
   
+      "Opera 14": {
+        "count": "2",
+        "summary_score": "88",
+        "results": {
+          "postMessage API": {
+            "result": "yes"
+          }, 
+        
+          "JSON.parse API": {
+            "result": "yes"
+          }, 
+        
+          "toStaticHTML API": {
+            "result": "no"
+          }, 
+        
+          "httpOnly cookie API": {
+            "result": "yes"
+          }, 
+        
+          "X-Frame-Options": {
+            "result": "yes"
+          }, 
+        
+          "X-Content-Type-Options": {
+            "result": "yes"
+          }, 
+        
+          "Block reflected XSS": {
+            "result": "yes"
+          }, 
+        
+          "Block location spoofing": {
+            "result": "yes"
+          }, 
+        
+          "Block JSON hijacking": {
+            "result": "yes"
+          }, 
+        
+          "Block XSS in CSS": {
+            "result": "yes"
+          }, 
+        
+          "Sandbox attribute": {
+            "result": "yes"
+          }, 
+        
+          "Origin header": {
+            "result": "yes"
+          }, 
+        
+          "Strict Transport Security": {
+            "result": "no"
+          }, 
+        
+          "Block cross-origin CSS attacks": {
+            "result": "yes"
+          }, 
+        
+          "Cross Origin Resource Sharing": {
+            "result": "yes"
+          }, 
+        
+          "Block visited link sniffing": {
+            "result": "yes"
+          }, 
+        
+          "Content Security Policy": {
+            "result": "yes"
+          }
+        }
+      }
+    , 
+  
+      "Opera 15": {
+        "count": "39",
+        "summary_score": "88",
+        "results": {
+          "postMessage API": {
+            "result": "yes"
+          }, 
+        
+          "JSON.parse API": {
+            "result": "yes"
+          }, 
+        
+          "toStaticHTML API": {
+            "result": "no"
+          }, 
+        
+          "httpOnly cookie API": {
+            "result": "yes"
+          }, 
+        
+          "X-Frame-Options": {
+            "result": "yes"
+          }, 
+        
+          "X-Content-Type-Options": {
+            "result": "yes"
+          }, 
+        
+          "Block reflected XSS": {
+            "result": "yes"
+          }, 
+        
+          "Block location spoofing": {
+            "result": "yes"
+          }, 
+        
+          "Block JSON hijacking": {
+            "result": "yes"
+          }, 
+        
+          "Block XSS in CSS": {
+            "result": "yes"
+          }, 
+        
+          "Sandbox attribute": {
+            "result": "yes"
+          }, 
+        
+          "Origin header": {
+            "result": "yes"
+          }, 
+        
+          "Strict Transport Security": {
+            "result": "no"
+          }, 
+        
+          "Block cross-origin CSS attacks": {
+            "result": "yes"
+          }, 
+        
+          "Cross Origin Resource Sharing": {
+            "result": "yes"
+          }, 
+        
+          "Block visited link sniffing": {
+            "result": "yes"
+          }, 
+        
+          "Content Security Policy": {
+            "result": "yes"
+          }
+        }
+      }
+    , 
+  
       "Opera Mini 4": {
-        "count": "83",
+        "count": "84",
         "summary_score": "47",
         "results": {
           "postMessage API": {
@@ -24529,7 +26329,7 @@
     , 
   
       "Opera Mini 7": {
-        "count": "33",
+        "count": "39",
         "summary_score": "47",
         "results": {
           "postMessage API": {
@@ -24604,7 +26404,7 @@
     , 
   
       "Opera Mini 14": {
-        "count": "1",
+        "count": "3",
         "summary_score": "47",
         "results": {
           "postMessage API": {
@@ -24829,7 +26629,7 @@
     , 
   
       "Opera Mobile 12": {
-        "count": "60",
+        "count": "71",
         "summary_score": "58",
         "results": {
           "postMessage API": {
@@ -24903,8 +26703,83 @@
       }
     , 
   
+      "Opera Mobile 14": {
+        "count": "4",
+        "summary_score": "88",
+        "results": {
+          "postMessage API": {
+            "result": "yes"
+          }, 
+        
+          "JSON.parse API": {
+            "result": "yes"
+          }, 
+        
+          "toStaticHTML API": {
+            "result": "no"
+          }, 
+        
+          "httpOnly cookie API": {
+            "result": "yes"
+          }, 
+        
+          "X-Frame-Options": {
+            "result": "yes"
+          }, 
+        
+          "X-Content-Type-Options": {
+            "result": "yes"
+          }, 
+        
+          "Block reflected XSS": {
+            "result": "yes"
+          }, 
+        
+          "Block location spoofing": {
+            "result": "yes"
+          }, 
+        
+          "Block JSON hijacking": {
+            "result": "yes"
+          }, 
+        
+          "Block XSS in CSS": {
+            "result": "yes"
+          }, 
+        
+          "Sandbox attribute": {
+            "result": "yes"
+          }, 
+        
+          "Origin header": {
+            "result": "yes"
+          }, 
+        
+          "Strict Transport Security": {
+            "result": "no"
+          }, 
+        
+          "Block cross-origin CSS attacks": {
+            "result": "yes"
+          }, 
+        
+          "Cross Origin Resource Sharing": {
+            "result": "yes"
+          }, 
+        
+          "Block visited link sniffing": {
+            "result": "yes"
+          }, 
+        
+          "Content Security Policy": {
+            "result": "yes"
+          }
+        }
+      }
+    , 
+  
       "Opera Tablet 11": {
-        "count": "5",
+        "count": "6",
         "summary_score": "47",
         "results": {
           "postMessage API": {
@@ -24979,7 +26854,7 @@
     , 
   
       "Opera Tablet 12": {
-        "count": "12",
+        "count": "17",
         "summary_score": "58",
         "results": {
           "postMessage API": {
@@ -25129,7 +27004,7 @@
     , 
   
       "Other": {
-        "count": "707",
+        "count": "724",
         "summary_score": "58",
         "results": {
           "postMessage API": {
@@ -25354,7 +27229,7 @@
     , 
   
       "Pale Moon (Firefox Variant) 19": {
-        "count": "31",
+        "count": "34",
         "summary_score": "76",
         "results": {
           "postMessage API": {
@@ -25429,8 +27304,8 @@
     , 
   
       "Pale Moon (Firefox Variant) 20": {
-        "count": "10",
-        "summary_score": "94",
+        "count": "45",
+        "summary_score": "76",
         "results": {
           "postMessage API": {
             "result": "yes"
@@ -25441,7 +27316,7 @@
           }, 
         
           "toStaticHTML API": {
-            "result": "yes"
+            "result": "no"
           }, 
         
           "httpOnly cookie API": {
@@ -25453,11 +27328,11 @@
           }, 
         
           "X-Content-Type-Options": {
-            "result": "yes"
+            "result": "no"
           }, 
         
           "Block reflected XSS": {
-            "result": "yes"
+            "result": "no"
           }, 
         
           "Block location spoofing": {
@@ -26254,7 +28129,7 @@
     , 
   
       "PlayBook 2": {
-        "count": "54",
+        "count": "55",
         "summary_score": "76",
         "results": {
           "postMessage API": {
@@ -26403,8 +28278,83 @@
       }
     , 
   
+      "QQ Browser": {
+        "count": "1",
+        "summary_score": "76",
+        "results": {
+          "postMessage API": {
+            "result": "yes"
+          }, 
+        
+          "JSON.parse API": {
+            "result": "yes"
+          }, 
+        
+          "toStaticHTML API": {
+            "result": "yes"
+          }, 
+        
+          "httpOnly cookie API": {
+            "result": "yes"
+          }, 
+        
+          "X-Frame-Options": {
+            "result": "yes"
+          }, 
+        
+          "X-Content-Type-Options": {
+            "result": "yes"
+          }, 
+        
+          "Block reflected XSS": {
+            "result": "yes"
+          }, 
+        
+          "Block location spoofing": {
+            "result": "yes"
+          }, 
+        
+          "Block JSON hijacking": {
+            "result": "yes"
+          }, 
+        
+          "Block XSS in CSS": {
+            "result": "yes"
+          }, 
+        
+          "Sandbox attribute": {
+            "result": "no"
+          }, 
+        
+          "Origin header": {
+            "result": "no"
+          }, 
+        
+          "Strict Transport Security": {
+            "result": "no"
+          }, 
+        
+          "Block cross-origin CSS attacks": {
+            "result": "yes"
+          }, 
+        
+          "Cross Origin Resource Sharing": {
+            "result": "yes"
+          }, 
+        
+          "Block visited link sniffing": {
+            "result": "yes"
+          }, 
+        
+          "Content Security Policy": {
+            "result": "no"
+          }
+        }
+      }
+    , 
+  
       "QtWeb 3": {
-        "count": "39",
+        "count": "41",
         "summary_score": "64",
         "results": {
           "postMessage API": {
@@ -26479,7 +28429,7 @@
     , 
   
       "Rekonq": {
-        "count": "95",
+        "count": "98",
         "summary_score": "76",
         "results": {
           "postMessage API": {
@@ -26779,7 +28729,7 @@
     , 
   
       "Safari": {
-        "count": "4799",
+        "count": "5190",
         "summary_score": "76",
         "results": {
           "postMessage API": {
@@ -27004,7 +28954,7 @@
     , 
   
       "Safari 3": {
-        "count": "81",
+        "count": "82",
         "summary_score": "23",
         "results": {
           "postMessage API": {
@@ -27079,7 +29029,7 @@
     , 
   
       "Safari 4": {
-        "count": "1024",
+        "count": "1031",
         "summary_score": "64",
         "results": {
           "postMessage API": {
@@ -27154,7 +29104,7 @@
     , 
   
       "Safari 5": {
-        "count": "3131",
+        "count": "3281",
         "summary_score": "76",
         "results": {
           "postMessage API": {
@@ -27229,7 +29179,7 @@
     , 
   
       "Safari 6": {
-        "count": "294",
+        "count": "490",
         "summary_score": "82",
         "results": {
           "postMessage API": {
@@ -27304,7 +29254,7 @@
     , 
   
       "Safari 7": {
-        "count": "17",
+        "count": "18",
         "summary_score": "70",
         "results": {
           "postMessage API": {
@@ -27454,7 +29404,7 @@
     , 
   
       "SeaMonkey 2": {
-        "count": "389",
+        "count": "406",
         "summary_score": "70",
         "results": {
           "postMessage API": {
@@ -27754,7 +29704,7 @@
     , 
   
       "Silk 3": {
-        "count": "9",
+        "count": "10",
         "summary_score": "52",
         "results": {
           "postMessage API": {
@@ -28053,8 +30003,83 @@
       }
     , 
   
+      "Sleipnir 4": {
+        "count": "4",
+        "summary_score": "94",
+        "results": {
+          "postMessage API": {
+            "result": "yes"
+          }, 
+        
+          "JSON.parse API": {
+            "result": "yes"
+          }, 
+        
+          "toStaticHTML API": {
+            "result": "no"
+          }, 
+        
+          "httpOnly cookie API": {
+            "result": "yes"
+          }, 
+        
+          "X-Frame-Options": {
+            "result": "yes"
+          }, 
+        
+          "X-Content-Type-Options": {
+            "result": "yes"
+          }, 
+        
+          "Block reflected XSS": {
+            "result": "yes"
+          }, 
+        
+          "Block location spoofing": {
+            "result": "yes"
+          }, 
+        
+          "Block JSON hijacking": {
+            "result": "yes"
+          }, 
+        
+          "Block XSS in CSS": {
+            "result": "yes"
+          }, 
+        
+          "Sandbox attribute": {
+            "result": "yes"
+          }, 
+        
+          "Origin header": {
+            "result": "yes"
+          }, 
+        
+          "Strict Transport Security": {
+            "result": "yes"
+          }, 
+        
+          "Block cross-origin CSS attacks": {
+            "result": "yes"
+          }, 
+        
+          "Cross Origin Resource Sharing": {
+            "result": "yes"
+          }, 
+        
+          "Block visited link sniffing": {
+            "result": "yes"
+          }, 
+        
+          "Content Security Policy": {
+            "result": "yes"
+          }
+        }
+      }
+    , 
+  
       "Sogou Explorer 1": {
-        "count": "1",
+        "count": "10",
         "summary_score": "94",
         "results": {
           "postMessage API": {
@@ -28348,6 +30373,156 @@
         
           "Content Security Policy": {
             "result": "no"
+          }
+        }
+      }
+    , 
+  
+      "UC Browser 2": {
+        "count": "1",
+        "summary_score": "70",
+        "results": {
+          "postMessage API": {
+            "result": "yes"
+          }, 
+        
+          "JSON.parse API": {
+            "result": "yes"
+          }, 
+        
+          "toStaticHTML API": {
+            "result": "no"
+          }, 
+        
+          "httpOnly cookie API": {
+            "result": "yes"
+          }, 
+        
+          "X-Frame-Options": {
+            "result": "yes"
+          }, 
+        
+          "X-Content-Type-Options": {
+            "result": "no"
+          }, 
+        
+          "Block reflected XSS": {
+            "result": "no"
+          }, 
+        
+          "Block location spoofing": {
+            "result": "yes"
+          }, 
+        
+          "Block JSON hijacking": {
+            "result": "yes"
+          }, 
+        
+          "Block XSS in CSS": {
+            "result": "yes"
+          }, 
+        
+          "Sandbox attribute": {
+            "result": "yes"
+          }, 
+        
+          "Origin header": {
+            "result": "yes"
+          }, 
+        
+          "Strict Transport Security": {
+            "result": "no"
+          }, 
+        
+          "Block cross-origin CSS attacks": {
+            "result": "yes"
+          }, 
+        
+          "Cross Origin Resource Sharing": {
+            "result": "yes"
+          }, 
+        
+          "Block visited link sniffing": {
+            "result": "yes"
+          }, 
+        
+          "Content Security Policy": {
+            "result": "no"
+          }
+        }
+      }
+    , 
+  
+      "UC Browser 9": {
+        "count": "2",
+        "summary_score": "76",
+        "results": {
+          "postMessage API": {
+            "result": "yes"
+          }, 
+        
+          "JSON.parse API": {
+            "result": "yes"
+          }, 
+        
+          "toStaticHTML API": {
+            "result": "no"
+          }, 
+        
+          "httpOnly cookie API": {
+            "result": "yes"
+          }, 
+        
+          "X-Frame-Options": {
+            "result": "yes"
+          }, 
+        
+          "X-Content-Type-Options": {
+            "result": "no"
+          }, 
+        
+          "Block reflected XSS": {
+            "result": "no"
+          }, 
+        
+          "Block location spoofing": {
+            "result": "yes"
+          }, 
+        
+          "Block JSON hijacking": {
+            "result": "yes"
+          }, 
+        
+          "Block XSS in CSS": {
+            "result": "yes"
+          }, 
+        
+          "Sandbox attribute": {
+            "result": "yes"
+          }, 
+        
+          "Origin header": {
+            "result": "yes"
+          }, 
+        
+          "Strict Transport Security": {
+            "result": "no"
+          }, 
+        
+          "Block cross-origin CSS attacks": {
+            "result": "yes"
+          }, 
+        
+          "Cross Origin Resource Sharing": {
+            "result": "yes"
+          }, 
+        
+          "Block visited link sniffing": {
+            "result": "yes"
+          }, 
+        
+          "Content Security Policy": {
+            "result": "yes"
           }
         }
       }
@@ -28804,7 +30979,7 @@
     , 
   
       "WebKit Nightly 537": {
-        "count": "25",
+        "count": "28",
         "summary_score": "82",
         "results": {
           "postMessage API": {
@@ -28878,8 +31053,83 @@
       }
     , 
   
+      "webOS Browser 3": {
+        "count": "1",
+        "summary_score": "58",
+        "results": {
+          "postMessage API": {
+            "result": "yes"
+          }, 
+        
+          "JSON.parse API": {
+            "result": "yes"
+          }, 
+        
+          "toStaticHTML API": {
+            "result": "no"
+          }, 
+        
+          "httpOnly cookie API": {
+            "result": "no"
+          }, 
+        
+          "X-Frame-Options": {
+            "result": "yes"
+          }, 
+        
+          "X-Content-Type-Options": {
+            "result": "no"
+          }, 
+        
+          "Block reflected XSS": {
+            "result": "no"
+          }, 
+        
+          "Block location spoofing": {
+            "result": "yes"
+          }, 
+        
+          "Block JSON hijacking": {
+            "result": "yes"
+          }, 
+        
+          "Block XSS in CSS": {
+            "result": "yes"
+          }, 
+        
+          "Sandbox attribute": {
+            "result": "no"
+          }, 
+        
+          "Origin header": {
+            "result": "yes"
+          }, 
+        
+          "Strict Transport Security": {
+            "result": "no"
+          }, 
+        
+          "Block cross-origin CSS attacks": {
+            "result": "yes"
+          }, 
+        
+          "Cross Origin Resource Sharing": {
+            "result": "yes"
+          }, 
+        
+          "Block visited link sniffing": {
+            "result": "yes"
+          }, 
+        
+          "Content Security Policy": {
+            "result": "no"
+          }
+        }
+      }
+    , 
+  
       "webOS TouchPad 1": {
-        "count": "36",
+        "count": "37",
         "summary_score": "58",
         "results": {
           "postMessage API": {
@@ -29026,7 +31276,156 @@
           }
         }
       }
+    , 
+  
+      "Yandex Browser 1": {
+        "count": "31",
+        "summary_score": "94",
+        "results": {
+          "postMessage API": {
+            "result": "yes"
+          }, 
+        
+          "JSON.parse API": {
+            "result": "yes"
+          }, 
+        
+          "toStaticHTML API": {
+            "result": "no"
+          }, 
+        
+          "httpOnly cookie API": {
+            "result": "yes"
+          }, 
+        
+          "X-Frame-Options": {
+            "result": "yes"
+          }, 
+        
+          "X-Content-Type-Options": {
+            "result": "yes"
+          }, 
+        
+          "Block reflected XSS": {
+            "result": "yes"
+          }, 
+        
+          "Block location spoofing": {
+            "result": "yes"
+          }, 
+        
+          "Block JSON hijacking": {
+            "result": "yes"
+          }, 
+        
+          "Block XSS in CSS": {
+            "result": "yes"
+          }, 
+        
+          "Sandbox attribute": {
+            "result": "yes"
+          }, 
+        
+          "Origin header": {
+            "result": "yes"
+          }, 
+        
+          "Strict Transport Security": {
+            "result": "yes"
+          }, 
+        
+          "Block cross-origin CSS attacks": {
+            "result": "yes"
+          }, 
+        
+          "Cross Origin Resource Sharing": {
+            "result": "yes"
+          }, 
+        
+          "Block visited link sniffing": {
+            "result": "yes"
+          }, 
+        
+          "Content Security Policy": {
+            "result": "yes"
+          }
+        }
+      }
+    , 
+  
+      "Yandex Browser 2": {
+        "count": "1",
+        "summary_score": "82",
+        "results": {
+          "postMessage API": {
+            "result": "yes"
+          }, 
+        
+          "JSON.parse API": {
+            "result": "yes"
+          }, 
+        
+          "toStaticHTML API": {
+            "result": "no"
+          }, 
+        
+          "httpOnly cookie API": {
+            "result": "yes"
+          }, 
+        
+          "X-Frame-Options": {
+            "result": "yes"
+          }, 
+        
+          "X-Content-Type-Options": {
+            "result": "no"
+          }, 
+        
+          "Block reflected XSS": {
+            "result": "yes"
+          }, 
+        
+          "Block location spoofing": {
+            "result": "yes"
+          }, 
+        
+          "Block JSON hijacking": {
+            "result": "yes"
+          }, 
+        
+          "Block XSS in CSS": {
+            "result": "yes"
+          }, 
+        
+          "Sandbox attribute": {
+            "result": "yes"
+          }, 
+        
+          "Origin header": {
+            "result": "yes"
+          }, 
+        
+          "Strict Transport Security": {
+            "result": "no"
+          }, 
+        
+          "Block cross-origin CSS attacks": {
+            "result": "yes"
+          }, 
+        
+          "Cross Origin Resource Sharing": {
+            "result": "yes"
+          }, 
+        
+          "Block visited link sniffing": {
+            "result": "yes"
+          }, 
+        
+          "Content Security Policy": {
+            "result": "yes"
+          }
+        }
+      }
     
   }
 }
-
